@@ -1,32 +1,42 @@
-![GDI Hub — explore research and practice](assets/banner.svg)
+![Explore GDI Hub](assets/banner.svg)
 
-# GDI Hub on GitHub
+# Start here — GDI Hub
 
-A starting point for GDI’s projects, publications and reusable research tools.
+Your guide to GDI’s GitHub workspace, shared resources and project pages.
 
-**[Official website](https://www.disabilityinnovation.com) · [Website directory](WEBSITE-DIRECTORY.md) · [Publication catalogue](PUBLICATIONS.md) · [Create a project](https://github.com/gdi-ucl/project-template/generate)**
+## Choose where to go
 
-## Explore
+| Repository | Purpose | How it is organised |
+| --- | --- | --- |
+| [Publications and reports](https://github.com/gdi-ucl/publications-and-reports) | Published outputs, summaries and source links | One folder per publication |
+| [Project template](https://github.com/gdi-ucl/template-project) | Copy and fill in to start a research or software project | One new repository per project |
+| This repository | Navigation, website directory and maintenance guidance | Shared guidance files |
 
-| Looking for | Where to go |
-| --- | --- |
-| GDI’s people, partners and organisational structure | [Who we are](https://www.disabilityinnovation.com/who-we-are) |
-| Academic research and teaching | [Academic Research Centre](https://www.disabilityinnovation.com/who-we-are/academic-research-centre) |
-| Practice, delivery and partnerships | [Community Interest Company](https://www.disabilityinnovation.com/who-we-are/community-interest-company) |
-| Programmes, activities and outputs | [Website directory](WEBSITE-DIRECTORY.md) |
-| Published research and reports | [Publication catalogue](PUBLICATIONS.md) |
-| A complete example of a publication repository | [Innovate Now: Lessons](https://github.com/gdi-ucl/innovate-now-lessons) |
+**[GDI website](https://www.disabilityinnovation.com) · [Website directory](WEBSITE-DIRECTORY.md) · [Researcher upload guide](https://github.com/gdi-ucl/template-project/blob/main/START-HERE.md)**
 
-## Start your own project
+## Workspace structure
 
-1. [Use the template](https://github.com/gdi-ucl/project-template/generate).
-2. Choose the owner, project name and visibility.
-3. Fill in the README, add permitted files and share the repository link.
+```text
+gdi-ucl/
+├── .github                    Organisation overview
+├── start-here                 Navigation and shared guidance
+├── publications-and-reports   Publication folders and catalogue
+├── template-project           Reusable project template
+└── [project-name]             A separate research/software project
+```
 
-No coding is needed to edit a project introduction. See the [upload and sharing guide](https://github.com/gdi-ucl/project-template/blob/main/START-HERE.md).
+The older private project-blueprint is archived after its useful instructions were consolidated into template-project. It is retained as a historical reference.
 
-## Website and GitHub
+## Where should my work go?
 
-This is a linked directory and project workspace. It does not mirror every website article, PDF or image. The source website remains authoritative. The publication catalogue links to all records found across the current listing pages; one report has a fully populated example repository so researchers can follow the format.
+- **Published paper or report:** add a folder in publications-and-reports.
+- **Research/software project:** create a repository from template-project, choosing Public or Private as appropriate.
+- **Instructions for everyone:** add them here.
 
-Checked 2 November 2026. [Sources and maintenance](MAINTAINING.md).
+Folders organise files. Branches hold alternative versions of the same project. Each repository has one visibility setting shared by its folders and branches.
+
+## About GDI
+
+Find GDI’s people, partners, programmes and current institutional information through the [website directory](WEBSITE-DIRECTORY.md). The [publication catalogue](https://github.com/gdi-ucl/publications-and-reports/blob/main/PUBLICATIONS.md) links to 77 source records checked on 2 November 2026.
+
+[How this workspace is maintained](MAINTAINING.md).
