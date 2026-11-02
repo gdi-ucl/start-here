@@ -8,6 +8,7 @@ Your guide to GDI’s GitHub workspace, shared resources and project pages.
 
 | Repository | Purpose | How it is organised |
 | --- | --- | --- |
+| [Projects](https://github.com/gdi-ucl/projects) | Website-sourced project profiles and resources | Programme folders with related subprojects |
 | [Publications and reports](https://github.com/gdi-ucl/publications-and-reports) | Published outputs, summaries and source links | One folder per publication |
 | [Project template](https://github.com/gdi-ucl/template-project) | Copy and fill in to start a research or software project | One new repository per project |
 | This repository | Navigation, website directory and maintenance guidance | Shared guidance files |
@@ -20,6 +21,7 @@ Your guide to GDI’s GitHub workspace, shared resources and project pages.
 gdi-ucl/
 ├── .github                    Organisation overview
 ├── start-here                 Navigation and shared guidance
+├── projects                   Project profiles and programme folders
 ├── publications-and-reports   Publication folders and catalogue
 ├── template-project           Reusable project template
 └── [project-name]             A separate research/software project
@@ -29,6 +31,7 @@ The older private project-blueprint is archived after its useful instructions we
 
 ## Where should my work go?
 
+- **Public project introduction:** find or add a profile in [projects](https://github.com/gdi-ucl/projects).
 - **Published paper or report:** add a folder in publications-and-reports.
 - **Research/software project:** create a repository from template-project, choosing Public or Private as appropriate.
 - **Instructions for everyone:** add them here.
